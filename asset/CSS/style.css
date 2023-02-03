@@ -1,0 +1,214 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+:root{
+    --white : hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(220, 30%, 14%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--Very-Dark-Blue);
+}
+
+/* -------------------Box 1----------------- */
+
+
+#box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box .box-one{
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 40px;
+    width: 25vw;
+    height: 43vh;
+    background-color: var(--Dark-Blue);
+    border-radius: 40px;
+}
+
+#box .box-one-star-icon{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 3vh;
+    border-radius: 20px;
+    padding-left: 25px;
+}
+#box .box-one-star-icon .box-one-star-icon-back{
+    width: 50px;
+    height: 50px;
+    background-color: #21242B;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box .box-one-title{
+    padding-top: 45px;
+    padding-left: 35px;
+    width: 100%;
+    height: 7vh;
+}
+#box .box-one-title h1{
+   color: var(--white);
+   font-size: 30px;
+}
+
+#box .box-one-text{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 35px;
+    line-height: 25px;
+}
+
+#box .box-one-text p{
+    width: 75%;
+    color: var(--Medium-Grey);
+    font-size: 15px;
+}
+
+#box .box-one-number{
+    font-size: 18px;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    color: var(--Medium-Grey);
+}
+
+#box .box-one-number .box-one-number-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21242B;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    color: var(--white);
+}
+
+
+#box .box-one-number .change-background{
+   background-color: var(--Orange);
+}
+
+#box .box-one-button{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+
+}
+
+#box .box-one-button-content{
+    width: 80%;
+    height: 5vh;
+    background-color: var(--Orange);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box .box-one-button-content p{
+    letter-spacing: 2px;
+}
+
+/* -------------------Box 2----------------- */
+
+
+#box-two{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-two .box-two-content{
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 40px;
+    width: 25vw;
+    height: 43vh;
+    background-color: var(--Dark-Blue);
+    border-radius: 40px;
+}
+
+#box-two .box-two-content .box-two-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-two .box-two-content .info-selected{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box-two .box-two-content .info-selected-content{
+    width: 45%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 20px;
+}
+#box-two .box-two-content .info-selected-content p{
+   color: var(--Orange);
+   font-size: 15px;
+}
+
+#box-two .box-two-title{
+    width: 100%;
+    height: auto;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#box-two .box-two-text{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-two .box-two-text .box-two-text-content{
+    width: 70%;
+    text-align: center;
+    color: var(--Medium-Grey);
+    font-size: 15px;
+}
+
